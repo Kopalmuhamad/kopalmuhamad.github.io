@@ -1,0 +1,87 @@
+.jumbotron {
+    padding: 2rem 0 0;
+    background: #d9d9d9;
+}
+
+.services {
+    padding: 2rem 1rem;
+}
+
+.title-services {
+    color: #284b63;
+}
+
+.card {
+    background: #284b63;
+    min-height: 300px;
+}
+
+.card-text {
+    min-height: 47px;
+    padding: 2rem 0;
+}
+
+
+
+
+/* Carousel Start */
+.carouesel-img {
+    border-radius: 0.8em
+}
+
+/* Carousel End */
+
+/* Project Start */
+
+.card-project {
+    margin-top: 1rem;
+}
+
+/* Project End */
+
+/* Footer Start */
+footer {
+    background-color: #353535;
+    padding: 0.7rem 1rem 0.2rem;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer p a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+footer p a:hover {
+    color: #284b63;
+}
+
+/* Footer End */
+
+@media (max-width:1060px) {
+    .card {
+        min-height: 350px;
+    }
+}
+
+@media (max-width:770px) {
+    .card {
+        min-height: 400px;
+    }
+}
+
+@media (max-width:620px) {
+    .card {
+        min-height: 450px;
+    }
+}
+
+@media(max-width:575px) {
+    .card {
+        min-height: 300px;
+    }
+}
